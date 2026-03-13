@@ -1,10 +1,11 @@
 {
-  "name": "nexo",
+  "name": "novo-sistema-tea",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -12,9 +13,16 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@mui/material": "^7.3.8",
+    "@mui/icons-material": "^7.3.9",
+    "@mui/material": "^7.3.9",
+    "@mui/x-date-pickers": "^8.27.2",
+    "@supabase/supabase-js": "^2.97.0",
+    "dayjs": "^1.11.19",
+    "imask": "^7.6.1",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.71.2",
+    "react-imask": "^7.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
