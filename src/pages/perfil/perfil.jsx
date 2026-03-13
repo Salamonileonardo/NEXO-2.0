@@ -7,6 +7,9 @@ export default function Perfil() {
   const acessarCalendario = () => {
     window.location.href = "./calendario.html";
   };
+  const acessarRelatorio = () => {
+    window.location.href = "./relatorio.html";
+  }
   return (
     <>
       <div className="pagina-inteira">
@@ -111,7 +114,7 @@ export default function Perfil() {
               Início
             </a>
 
-            <a href="#" className="menu-item">
+            <a href="#" className="menu-item" onClick={acessarRelatorio}>
               <svg width="24" height="24" viewBox="0 0 24 24">
                 <path d="M19 3H5c-1.1 0-2 .9-2 2v14l4-4h12c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" />
               </svg>

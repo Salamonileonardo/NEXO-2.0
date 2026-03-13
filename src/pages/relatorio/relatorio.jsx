@@ -131,9 +131,9 @@ export default function Relatorios() {
             Calendário
           </a>
 
-          <a href="#" className="menu-item">
+          <a href="#" className="menu-item ativo">
             <svg width="24" height="24" viewBox="0 0 24 24">
-              <path d="M6 2h9a2 2 0 012 2v16l-4-2-4 2-3-2-3 2V4a2 2 0 012-2z" />
+              <path d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H4V4h16v16zM7 10h10v2H7v-2zm0 4h6v2H7v-2z" />
             </svg>
             Relatórios
           </a>
