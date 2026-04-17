@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.suporte-container {
+  height: 100vh;
+  background: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suporte-box {
+  background: #1a1a1a;
+  padding: 30px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  color: #fff;
+}
+ 
+.suporte-box h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.suporte-box p {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #e0dddd;
+}
+
+.suporte-box label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.suporte-box select,
+.suporte-box textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border:  10;
+  margin-bottom: 10px;
+  background: #2a2a2a;
+  color: #b6b2b2;
+}
+
+.suporte-box textarea {
+  height: 100px;
+  resize: none;
+}
+
+.suporte-box button {
+  width: 100%; 
+  padding: 12px;
+  background: #4cafef;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.suporte-box button:hover {
+  background: #2196f3;
+}
+
+.sucesso {
+  background: #2e7d32;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+}

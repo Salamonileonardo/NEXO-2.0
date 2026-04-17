@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import Perfil from "./pages/perfil/perfil.jsx";
 import Calendario from "./pages/calendario/calendario.jsx";
 import Relatorios from "./pages/relatorio/relatorio.jsx";
+import Suporte from "./pages/suporte/suporte.jsx";
 
 const perfilRoot = document.getElementById("perfil");
 if (perfilRoot) {
@@ -15,6 +16,11 @@ if (calendarioRoot) {
 }
 
 const relatorioRoot = document.getElementById("relatorio");
-if (calendarioRoot){
+if (calendarioRoot) {
   createRoot(relatorioRoot).render(<Relatorios />);
+}
+
+const suporteRooot = document.getElementById("suporte");
+if (suporteRooot) {
+  createRoot(suporteRooot).render(<Suporte />);
 }
